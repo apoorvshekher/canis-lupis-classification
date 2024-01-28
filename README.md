@@ -12,8 +12,24 @@ The [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/) c
 
 1. Create a conda environment
 
-	  `conda create -n canis python=3.10`
+```
+conda create -n canis python=3.10
+```
 
 2. Clone this repository.
 
-	`git clone git@github.com:apoorvshekher/canis-lupis-classification.git`
+```
+git clone git@github.com:apoorvshekher/canis-lupis-classification.git
+```
+
+3. Go to the directory and download dataset.
+
+```
+cd canis-lupis-familiaris
+bash data/extract.sh
+```
+4. Perform training and testing
+
+```
+python .
+```
